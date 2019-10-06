@@ -56,7 +56,7 @@ int main(int argc, char* argv[])
         return 0;
     }
 
-    if(argc == 3 && strcmp(argv[1],"-l") == 0) {//mysl -l dir
+    if(argc == 3 && strcmp(argv[1],"-l") == 0) {
         mid = opendir(argv[2]);
         char buf[512];
 
